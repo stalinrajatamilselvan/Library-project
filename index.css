@@ -1,0 +1,332 @@
+/* ================================= */
+/* GLOBAL SETTINGS */
+/* ================================= */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+
+body {
+
+    background-color: #fdfbf7;
+
+    min-height: 100vh;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    padding: 20px;
+}
+
+
+
+/* ================================= */
+/* MAIN CONTAINER */
+/* ================================= */
+
+.container {
+
+    width: 100%;
+
+    max-width: 550px;
+
+    background-color: white;
+
+    border-radius: 10px;
+
+    overflow: hidden;
+
+    box-shadow:
+        0 8px 25px
+        rgba(0, 0, 0, 0.15);
+
+}
+
+
+
+/* ================================= */
+/* SCREEN */
+/* ================================= */
+
+.screen {
+
+    display: none;
+
+}
+
+
+.screen.active {
+
+    display: block;
+
+}
+
+
+
+/* ================================= */
+/* HEADER */
+/* ================================= */
+
+.header {
+
+    background:
+        linear-gradient(
+            135deg,
+            #5c0612,
+            #300309
+        );
+
+    color: white;
+
+    text-align: center;
+
+    padding: 45px 25px;
+
+    border-bottom:
+        5px solid #d4af37;
+
+}
+
+
+.header h3 {
+
+    color: #d4af37;
+
+    font-size: 14px;
+
+    letter-spacing: 2px;
+
+    margin-bottom: 10px;
+
+}
+
+
+.header h1 {
+
+    font-size: 28px;
+
+}
+
+
+
+/* ================================= */
+/* CONTENT */
+/* ================================= */
+
+.content {
+
+    padding: 35px 30px;
+
+    text-align: center;
+
+}
+
+
+.content p {
+
+    color: #444;
+
+    line-height: 1.6;
+
+    margin-bottom: 25px;
+
+}
+
+
+
+/* ================================= */
+/* FORM */
+/* ================================= */
+
+form {
+
+    text-align: left;
+
+}
+
+
+.form-group {
+
+    margin-bottom: 18px;
+
+}
+
+
+.form-group label {
+
+    display: block;
+
+    color: #5c0612;
+
+    font-weight: bold;
+
+    margin-bottom: 6px;
+
+}
+
+
+.form-group input,
+.form-group textarea {
+
+    width: 100%;
+
+    padding: 12px;
+
+    border:
+        1px solid #ccc;
+
+    border-radius: 5px;
+
+    font-size: 15px;
+
+    background-color: #faf8f5;
+
+    outline: none;
+
+}
+
+
+.form-group textarea {
+
+    height: 90px;
+
+    resize: none;
+
+}
+
+
+.form-group input:focus,
+.form-group textarea:focus {
+
+    border-color: #5c0612;
+
+    background-color: white;
+
+}
+
+
+
+/* ================================= */
+/* PRIMARY BUTTON */
+/* ================================= */
+
+.btn {
+
+    width: 100%;
+
+    padding: 13px;
+
+    background-color: #5c0612;
+
+    color: white;
+
+    border: none;
+
+    border-radius: 5px;
+
+    font-size: 16px;
+
+    font-weight: bold;
+
+    cursor: pointer;
+
+    margin-top: 5px;
+
+}
+
+
+.btn:hover {
+
+    background-color: #7a2021;
+
+}
+
+
+
+/* ================================= */
+/* SECONDARY BUTTON */
+/* ================================= */
+
+.secondary-btn {
+
+    width: 100%;
+
+    padding: 11px;
+
+    background-color: #7a2021;
+
+    color: white;
+
+    border: none;
+
+    border-radius: 5px;
+
+    font-size: 15px;
+
+    cursor: pointer;
+
+    margin-top: 10px;
+
+}
+
+
+.secondary-btn:hover {
+
+    background-color: #5c0612;
+
+}
+
+
+
+/* ================================= */
+/* LINKS */
+/* ================================= */
+
+.link-text {
+
+    margin-top: 20px;
+
+    font-size: 14px;
+
+}
+
+
+.link-text a {
+
+    color: #5c0612;
+
+    font-weight: bold;
+
+    text-decoration: none;
+
+}
+
+
+.link-text a:hover {
+
+    text-decoration: underline;
+
+}
+
+
+
+/* ================================= */
+/* ADMIN ROLE */
+/* ================================= */
+
+.role {
+
+    margin-top: 15px;
+
+    color: #5c0612 !important;
+
+    font-size: 18px;
+
+}
