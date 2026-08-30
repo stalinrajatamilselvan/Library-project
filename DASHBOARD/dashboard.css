@@ -1,0 +1,351 @@
+/* ================================= */
+/* GLOBAL SETTINGS */
+/* ================================= */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+
+/* ================================= */
+/* BODY */
+/* ================================= */
+
+body {
+
+    background-color: #fdfbf7;
+
+    min-height: 100vh;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    padding: 20px;
+}
+
+
+/* ================================= */
+/* MAIN CONTAINER */
+/* ================================= */
+
+.container {
+
+    width: 100%;
+
+    max-width: 550px;
+
+    background-color: white;
+
+    border-radius: 10px;
+
+    overflow: hidden;
+
+    box-shadow:
+        0 8px 25px
+        rgba(0, 0, 0, 0.15);
+}
+
+
+/* ================================= */
+/* HEADER */
+/* ================================= */
+
+.header {
+
+    background:
+        linear-gradient(
+            135deg,
+            #5c0612,
+            #300309
+        );
+
+    color: white;
+
+    text-align: center;
+
+    padding: 45px 25px;
+
+    border-bottom:
+        5px solid #d4af37;
+}
+
+
+.header h3 {
+
+    color: #d4af37;
+
+    font-size: 14px;
+
+    letter-spacing: 2px;
+
+    margin-bottom: 10px;
+}
+
+
+.header h1 {
+
+    font-size: 28px;
+}
+
+
+.header h1 span {
+
+    color: #d4af37;
+}
+
+
+/* ================================= */
+/* CONTENT */
+/* ================================= */
+
+.content {
+
+    padding: 35px 30px;
+
+    text-align: center;
+}
+
+
+/* ================================= */
+/* SUCCESS ICON */
+/* ================================= */
+
+.success-icon {
+
+    width: 65px;
+
+    height: 65px;
+
+    margin: 0 auto 20px;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    border-radius: 50%;
+
+    background-color: #5c0612;
+
+    color: white;
+
+    font-size: 35px;
+
+    font-weight: bold;
+}
+
+
+/* ================================= */
+/* DASHBOARD TITLE */
+/* ================================= */
+
+.content h2 {
+
+    color: #5c0612;
+
+    margin-bottom: 15px;
+
+    font-size: 22px;
+}
+
+
+.content > p {
+
+    color: #444;
+
+    line-height: 1.6;
+
+    margin-bottom: 25px;
+}
+
+
+/* ================================= */
+/* USER INFORMATION */
+/* ================================= */
+
+.user-info {
+
+    border: 1px solid #ddd;
+
+    border-radius: 8px;
+
+    overflow: hidden;
+
+    margin-bottom: 25px;
+
+    text-align: left;
+}
+
+
+.info-row {
+
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: center;
+
+    padding: 14px 16px;
+
+    border-bottom: 1px solid #eee;
+}
+
+
+.info-row:last-child {
+
+    border-bottom: none;
+}
+
+
+.label {
+
+    color: #5c0612;
+
+    font-weight: bold;
+}
+
+
+.value {
+
+    color: #444;
+
+    text-align: right;
+
+    word-break: break-word;
+}
+
+
+.role {
+
+    color: #5c0612;
+
+    font-weight: bold;
+}
+
+
+/* ================================= */
+/* DASHBOARD ACTIONS */
+/* ================================= */
+
+.dashboard-actions {
+
+    display: flex;
+
+    gap: 10px;
+
+    margin-bottom: 10px;
+}
+
+
+.dashboard-actions .btn {
+
+    flex: 1;
+}
+
+
+/* ================================= */
+/* PRIMARY BUTTON */
+/* ================================= */
+
+.btn {
+
+    padding: 13px;
+
+    background-color: #5c0612;
+
+    color: white;
+
+    border: none;
+
+    border-radius: 5px;
+
+    font-size: 15px;
+
+    font-weight: bold;
+
+    cursor: pointer;
+
+    transition: 0.3s;
+}
+
+
+.btn:hover {
+
+    background-color: #7a2021;
+
+    transform: translateY(-2px);
+}
+
+
+/* ================================= */
+/* LOGOUT BUTTON */
+/* ================================= */
+
+.secondary-btn {
+
+    width: 100%;
+
+    padding: 11px;
+
+    background-color: #7a2021;
+
+    color: white;
+
+    border: none;
+
+    border-radius: 5px;
+
+    font-size: 15px;
+
+    cursor: pointer;
+
+    margin-top: 10px;
+
+    transition: 0.3s;
+}
+
+
+.secondary-btn:hover {
+
+    background-color: #5c0612;
+}
+
+
+/* ================================= */
+/* MOBILE RESPONSIVE */
+/* ================================= */
+
+@media (max-width: 600px) {
+
+    body {
+        padding: 10px;
+    }
+
+    .header {
+        padding: 35px 20px;
+    }
+
+    .header h1 {
+        font-size: 24px;
+    }
+
+    .content {
+        padding: 30px 20px;
+    }
+
+    .dashboard-actions {
+        flex-direction: column;
+    }
+
+    .info-row {
+        gap: 15px;
+    }
+
+}

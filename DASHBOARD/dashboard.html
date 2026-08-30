@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0">
+
+    <title>Dashboard - Digital Library</title>
+
+    <link
+        rel="stylesheet"
+        href="./dashboard.css">
+
+</head>
+
+<body>
+
+    <!-- ============================= -->
+    <!-- MAIN CONTAINER -->
+    <!-- ============================= -->
+
+    <div class="container">
+
+
+        <!-- ============================= -->
+        <!-- HEADER -->
+        <!-- ============================= -->
+
+        <header class="header">
+
+            <h3>LIBRARY PORTAL</h3>
+
+            <h1>
+                Welcome,
+                <span id="dashboardUserName">
+                    User
+                </span>
+            </h1>
+
+        </header>
+
+
+        <!-- ============================= -->
+        <!-- DASHBOARD CONTENT -->
+        <!-- ============================= -->
+
+        <main class="content">
+
+            <div class="success-icon">
+                ✓
+            </div>
+
+
+            <h2>
+                Login Successful!
+            </h2>
+
+
+            <p>
+                You have successfully logged into the
+                Digital Library Management System.
+            </p>
+
+
+            <!-- ============================= -->
+            <!-- USER INFORMATION -->
+            <!-- ============================= -->
+
+            <div class="user-info">
+
+                <div class="info-row">
+
+                    <span class="label">
+                        Name
+                    </span>
+
+                    <span
+                        class="value"
+                        id="userName">
+                        User
+                    </span>
+
+                </div>
+
+
+                <div class="info-row">
+
+                    <span class="label">
+                        Email
+                    </span>
+
+                    <span
+                        class="value"
+                        id="userEmail">
+                        -
+                    </span>
+
+                </div>
+
+
+                <div class="info-row">
+
+                    <span class="label">
+                        Role
+                    </span>
+
+                    <span
+                        class="value role"
+                        id="dashboardUserRole">
+                        User
+                    </span>
+
+                </div>
+
+            </div>
+
+
+            <!-- ============================= -->
+            <!-- DASHBOARD ACTIONS -->
+            <!-- ============================= -->
+
+            <div class="dashboard-actions">
+
+                <button
+                    class="btn"
+                    id="booksBtn">
+
+                    📚 Books
+
+                </button>
+
+
+                <button
+                    class="btn"
+                    id="profileBtn">
+
+                    👤 My Profile
+
+                </button>
+
+            </div>
+
+
+            <!-- ============================= -->
+            <!-- LOGOUT -->
+            <!-- ============================= -->
+
+            <button
+                class="secondary-btn"
+                id="logoutBtn">
+
+                Logout
+
+            </button>
+
+        </main>
+
+    </div>
+
+
+    <!-- ============================= -->
+    <!-- JAVASCRIPT -->
+    <!-- ============================= -->
+
+    <script src="./dashboard.js"></script>
+
+</body>
+
+</html>
